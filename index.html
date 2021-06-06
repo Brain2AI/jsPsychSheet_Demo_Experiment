@@ -113,7 +113,6 @@
     on_finish: function () {
       url = "https://script.google.com/macros/s/AKfycbzWarG1igduvFgcS8noKcvJ_RCX_ajtlYJQ1cOrCpTFtCrlaFlqSv-Cg2JJDQciFs4ePA/exec";
       jsPsychSheet.uploadData(url, jsPsych.data.get().csv())
-      console.log(jsPsych.data.get().csv().split(/\r?\n|\r/));
     }
   });
 </script>
